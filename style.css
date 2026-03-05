@@ -28,6 +28,11 @@ color: white;
   padding: 20px;
   background: linear-gradient(to right, #00e1ff, #0000ff);
 }
+.Projects-section {
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, #00e1ff, #0000ff);
+}
 .family-section {
   margin-top: 20px;
   padding: 20px;
