@@ -1,21 +1,73 @@
-body {font-style: normal;
-    font-size: 16px;
-    color: black;
-    background-image: url(website_backround.jpg);
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(images\ \(1\).jpg);
+  background-size: cover;
+text-align: center;
 }
 .navbar {
-  background-color: rgb(31, 46, 133);
+  background-color: #060607;
+  position: fixed;
   top: 0;
   left: 0;
-  height: 150px;
+  height: 30px;
   width: 100%;
 margin: 0;
 padding: 0;}
-section {
-  margin-top: 150px;
-  border: 1px solid black;
+
+.home-section {
+  background-image: url(images (2).jpg);
+  background-size: cover;
   padding: 20px;
-background-color: salmon;
+  margin-top: 20px;
+  height : 400px;
+color: white;
+  
+}
+.about-section {
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, #00e1ff, #0000ff);
+}
+.family-section {
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, #00e1ff, #0000ff);
+}
+.future-section {
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, #00e1ff, #0000ff);
+}
+.hobbies-section {
+  margin-top: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, #00e1ff, #0000ff);
+}
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: lab(0% 0 0);
+  overflow: visible;
+  position: sticky;  
+  width: 100%; 
+  height : 46px;     
+  top: 0;           
+  z-index: 1000;    
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: dashed;
+}
+
+.navbar li a:hover {
+  background-image: url(images\ \(1\).jpg);
 }
